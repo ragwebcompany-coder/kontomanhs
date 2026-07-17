@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://drkontomanis.gr/sitemap.xml

@@ -1,0 +1,11 @@
+# System
+.DS_Store
+
+# Private / source materials — not part of the deployed website
+ΒΙΟΓΡΑΦΙΚΟ.odt
+/*.jpg
+
+# Tooling / local
+.vercel/
+.claude/
+.agents/

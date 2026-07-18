@@ -198,3 +198,24 @@
   .cta{padding:60px 0}
   .faq summary{font-size:17px}
 }
+
+/* ============================================================
+   Client requests (2026-07-18)
+   ============================================================ */
+/* Emphasis accents in titles: upright, bold, vivid azure */
+:root{--azure:#1e90ff;}
+h1 em, h2 em, h3 em,
+.hero h1 .it,
+.page-hero h1 em, .prose h2 em, .prose h3 em,
+.about-body h2 em, .center-head h2 em, .shead h2 em,
+.contact h2 em, .cta h2 em, .map-panel h3 em{
+  font-style:normal !important;
+  font-weight:700 !important;
+  color:var(--azure) !important;
+}
+/* Header: landline + mobile stacked */
+.nav-phones{display:flex;flex-direction:column;gap:1px;line-height:1.14}
+.nav-phones .nav-phone{font-size:12.5px}
+/* Emergency 24/7 row in hours table */
+.hours-table .hrow.emrow .day{color:var(--azure)}
+.hours-table .hrow.emrow .time{color:var(--ink-2);font-weight:600}
